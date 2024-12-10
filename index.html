@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Portfolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+        <div class="header-image">
+            <img src="/images/adachimuseum.jpg" alt="Header Image">
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Introduction to my website.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="intro">
+                <img src="/images/introduce.jpeg" alt="Soma Fukushima" class="profile-img">
+                <div class="about-text">
+                    <div class="section">
+                        <h3>生まれ育ち</h3>
+                        <p>岡山県生まれ京都府育ち</p>
+                    </div>
+                    <div class="section">
+                        <h3>話せる言語</h3>
+                        <p>日本語(岡山弁、京ことば、大阪弁、標準語)</p>
+                        <p>英語(イギリス、アメリカ、オーストラリア訛り)</p>
+                        <p>他に、フランス語、スペイン語、オランダ語勉強中</p>
+                    </div>
+                    <div class="section">
+                        <h3>学校</h3>
+                        <p>専門学校でプログラミング言語を勉強する３年生。</p>
+                    </div>
+                    <div class="section">
+                        <h3>好きなものごと</h3>
+                        <p>旅行(国内外ありとあらゆるところに行きます)</p>
+                        <p>言語学習(フランス語、スペイン語、オランダ語)</p>
+                        <p>国際交流(観光地に行って困っている外国人に話しかけて友達になる)</p>
+                        <p>おしゃべり(老若男女日本人外国人問わず話すのが大好き)</p>
+                        <p>アウトドア(ビーチで泳いだり、ハイキング、カラオケ、居酒屋、バー、ダーツ、ビリヤード、パーティー)</p>
+                        <p>子ども(仕事で子どもたちと遊ぶことが多いので)</p>
+                        <p>食べ物全般(料理、食べる、おいしい料理屋に行く)</p>
+                    </div>
+                    <div class="section">
+                        <h3>性格</h3>
+                        <p>外交的で明るく常に笑顔。人の気持ちを瞬時に察す能力がある。くだらない冗談や人を笑わせることも好き。</p>
+                    </div>
+                    <div class="section">
+                        <h3>職歴・アルバイト</h3>
+                        <p>英会話教室の営業兼事務(スーパーや大型モールで子供英会話の営業、体験授業のアポを取ったり、英語のレッスンを子供に、内勤ではパソコンでエクセルやワードなどを使い仕事を行ったり、社内の目標や、市場調査、地図の作成、イベントで使うデザイン、地図作成など)。</p>
+                        <p>3年間、京都・祇園の酒屋で働いていた経験があり、様々な企業様と取引、電話の応対、配達、営業。</p>
+                        <p>オンラインで４年間日本語教師もしている(様々な国籍の方にわかりやすい日本語でレッスン)。</p>
+                    </div>
+                    <div class="section">
+                        <h3>プログラミングに興味をもったきっかけ</h3>
+                        <p>小さい頃からパソコンを触ることが好きで、タイミングも人より１０倍以上早く、
+                            英語にも興味があり、国内外どこでも仕事ができることが魅力的だったから
+                            そして自分自身でサイトを作ったり、バックエンドで裏側を操作するのもかっこいいと思った。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="hobby">
+            <div class="hobby-slider">
+                <h3>国内旅行</h3>
+                <div class="slider-container">
+                    <!-- 左ボタン -->
+                    <button class="prev-btn">&lt;</button>
+            
+                    <!-- 画像スライダー -->
+                    <div class="slider-images">
+                        <div class="gallery-item" data-title="箱根大観山" data-description="美しい自然の景色と温泉地で知られる箱根の展望台。">
+                            <img src="/images/hakonedaikanzan.jpg" alt="Travel 1">
+                        </div>
+                        <div class="gallery-item" data-title="十国峠" data-description="ロープウェイに乗った後、絶景の景色が広がる。">
+                            <img src="/images/zikkokutoge.jpg" alt="Travel 2">
+                        </div>
+                        <div class="gallery-item" data-title="静岡県富士山世界遺産センター" data-description="富士山の歴史がよくわかる。どでかい富士山に反射する壁で感動、間違いなし">
+                            <img src="/images/fujimuseum.jpg" alt="Travel 3">
+                        </div>
+                        <div class="gallery-item" data-title="熱海" data-description="温泉街として有名。毎月花火も上がり、夏はビーチとしても最高">
+                            <img src="/images/atami.jpg" alt="Travel 4">
+                        </div>
+                        <div class="gallery-item" data-title="鎌倉大仏殿高徳院" data-description="歴史的な寺院と自然が魅力的な鎌倉大仏。近くには、江ノ電や長谷寺もある">
+                            <img src="/images/kamakura.jpg" alt="Travel 5">
+                        </div>
+                        <div class="gallery-item" data-title="白川郷" data-description="世界遺産に登録された美しい合掌造りの村。どの景色もいいが冬は雪も相まって圧巻">
+                            <img src="/images/shirakawago.jpg" alt="Travel 6">
+                        </div>
+                        <div class="gallery-item" data-title="新穂高" data-description="標高が高く四季折々の自然が楽しめ、すぐ近くには温泉もある。ロープウェイで-14度の銀世界へ。">
+                            <img src="/images/shinhodaka.jpg" alt="Travel 7">
+                        </div>
+                        <div class="gallery-item" data-title="特急しおかぜ" data-description="岡山から四国へ瀬戸大橋を渡り、海沿いを走る風光明媚な特急。">
+                            <img src="/images/shiokazetrain.jpg" alt="Travel 8">
+                        </div>
+                        <div class="gallery-item" data-title="仁淀ブルー" data-description="透明度が高く美しい仁淀川の青。">
+                            <img src="/images/niyodoblue.jpg" alt="Travel 9">
+                        </div>
+                        <div class="gallery-item" data-title="四国カルスト" data-description="四国の大自然が楽しめるカルスト地帯。">
+                            <img src="/images/shikokukarst.jpg" alt="Travel 10">
+                        </div>
+                        <div class="gallery-item" data-title="かつおのたたき丼" data-description="高知名産のかつおの刺身をのせた海鮮丼。">
+                            <img src="/images/kaisendoninkochi.jpg" alt="Travel 11">
+                        </div>
+                        <div class="gallery-item" data-title="父母ヶ浜" data-description="香川のウユニ塩湖と言われているビーチ。サンセットは最高">
+                            <img src="/images/chichibugahama.jpg" alt="Travel 12">
+                        </div>
+                    </div>
+            
+                    <!-- 右ボタン -->
+                    <button class="next-btn">&gt;</button>
+                </div>
+            </div>
+            
+
+            <div class="hobby-slider">
+                <h3>海外旅行</h3>
+                <div class="slider-container">
+                    <!-- 左ボタン -->
+                    <button class="prev-btn">&lt;</button>
+                    
+                    <!-- 画像スライダー -->
+                    <div class="slider-images">
+                        <div class="gallery-item" data-title="ジェットスター航空" data-description="オーストラリアへの旅で利用した飛行機。">
+                            <img src="/images/plane.jpg" alt="Australia 1">
+                        </div>
+                        <div class="gallery-item" data-title="機内" data-description="飛行中のスクリーン。">
+                            <img src="/images/planescreen.jpg" alt="Australia 2">
+                        </div>
+                        <div class="gallery-item" data-title="シドニー" data-description="美しいオペラハウスがあるシドニー。">
+                            <img src="/images/sydney.jpg" alt="Australia 3">
+                        </div>
+                        <div class="gallery-item" data-title="オーストラリア国旗" data-description="オーストラリアのスーパーに売っている国旗。">
+                            <img src="/images/flag.jpg" alt="Australia 4">
+                        </div>
+                        <div class="gallery-item" data-title="オーストラリアの友達の家にお泊り" data-description="京都の居酒屋で出会ったオーストラリア人に招待されて１週間シドニーへ">
+                            <img src="/images/aussiemates.jpg" alt="Australia 5">
+                        </div>
+                        <div class="gallery-item" data-title="ブルーマウンテン" data-description="友達のお母さんがシドニーにある山までドライブに連れて行ってもらった時の写真">
+                            <img src="/images/bluemountain.jpg" alt="Australia 6">
+                        </div>
+                        <div class="gallery-item" data-title="メルボルン" data-description="メルボルンの市街地。建物がどれも日本にはないもので新鮮">
+                            <img src="/images/Melbournecityview.jpg" alt="Australia 7">
+                        </div>
+                        <div class="gallery-item" data-title="パース" data-description="高層ビルが立ち並ぶ、パース。">
+                            <img src="/images/centreofperth.jpg" alt="Australia 8">
+                        </div>
+                        <div class="gallery-item" data-title="カンガルー" data-description="パースの動物園にいるカンガルー。">
+                            <img src="/images/rooinperth.jpg" alt="Australia 9">
+                        </div>
+                        <div class="gallery-item" data-title="クオッカ" data-description="現在はロットネスト島にしかいない絶滅危惧種のクオッカ。">
+                            <img src="/images/quokka.jpg" alt="Australia 10">
+                        </div>
+                        <div class="gallery-item" data-title="小型飛行機" data-description="パースからロットネスト島へこの飛行機で">
+                            <img src="/images/RottnestIsland3.jpg" alt="Australia 11">
+                        </div>
+                        <div class="gallery-item" data-title="飛行機内" data-description="飛行機の中ではヘッドホンのようなものを付けて話しながら、景色を楽しむ">
+                            <img src="/images/smallplane.jpg" alt="Australia 12">
+                        </div>
+                        <div class="gallery-item" data-title="ロットネスト島のビーチ" data-description="行ったときはちょうど冬、それで透き通ったビーチに釣られて泳いだ">
+                            <img src="/images/RottnestIsland.jpg" alt="Australia 13">
+                        </div>
+                        <div class="gallery-item" data-title="ロットネスト島のビーチ2" data-description="ロットネスト島はどこからみてもきれい。">
+                            <img src="/images/RottnestIsland2.jpg" alt="Australia 14">
+                        </div>
+                        <div class="gallery-item" data-title="自転車" data-description="ロットネスト島は自転車ですぐに一周できるのが魅力">
+                            <img src="/images/RottnestIsland4.jpg" alt="Australia 15">
+                        </div>
+                    </div>
+            
+                    <!-- 右ボタン -->
+                    <button class="next-btn">&gt;</button>
+                </div>
+            </div>
+            
+            
+            <div class="hobby-slider">
+                <h3>国際交流</h3>
+                <div class="slider-container">
+                    <!-- 左ボタン -->
+                    <button class="prev-btn">&lt;</button>
+                    
+                    <!-- 画像スライダー -->
+                    <div class="slider-images">
+                        <div class="gallery-item" data-title="淀川の花火" data-description="淀川で海外の友達と見た初めてのなにわ花火大会。">
+                            <img src="/images/fireworksinyodoriver.jpg" alt="Exchange 1">
+                        </div>
+                        <div class="gallery-item" data-title="天橋立" data-description="友達と訪れた天橋立のビーチ。">
+                            <img src="/images/amanohashidatewithmyfriends.jpg" alt="Exchange 2">
+                        </div>
+                        <div class="gallery-item" data-title="水晶浜海水浴場" data-description="福井県敦賀市で有名なビーチのひとつへドライブに">
+                            <img src="/images/beachintsuruga.jpg" alt="Exchange 3">
+                        </div>
+                        <div class="gallery-item" data-title="近江舞子中浜ビーチ" data-description="滋賀県大津市にあるきれいな琵琶湖のビーチ">
+                            <img src="/images/omimaikowithmyfriends.jpg" alt="Exchange 4">
+                        </div>
+                        <div class="gallery-item" data-title="祇園祭" data-description="祇園祭で止まっていた山鉾をバックに">
+                            <img src="/images/gionfestival.jpg" alt="Exchange 5">
+                        </div>
+                        <div class="gallery-item" data-title="伊根町" data-description="舟屋の街並みが美しい伊根町での交流。">
+                            <img src="/images/inechowithmyfriends.jpg" alt="Exchange 6">
+                        </div>
+                        <div class="gallery-item" data-title="鳥貴族" data-description="鳥貴族で楽しんだ夜の思い出。">
+                            <img src="/images/torikiwithmyfriends.jpg" alt="Exchange 7">
+                        </div>
+                        <div class="gallery-item" data-title="大岩山" data-description="伏見区の地元にある山にオーストラリア人とバイクでドライブ">
+                            <img src="/images/oiwayama.jpg" alt="Exchange 8">
+                        </div>
+                        <div class="gallery-item" data-title="祇園の抹茶アイス" data-description="祇園の辻利でアメリカ人の友達と抹茶アイス">
+                            <img src="/images/macchaingion.jpg" alt="Exchange 9">
+                        </div>
+                        <div class="gallery-item" data-title="鴨川デルタ" data-description="鴨川デルタで花火パーティー">
+                            <img src="/images/hanabiinkamogawadelta.jpg" alt="Exchange 10">
+                        </div>
+                        <div class="gallery-item" data-title="居酒屋" data-description="河原町の居酒屋でフランス人とドイツ人の集まりに参加">
+                            <img src="/images/izakayainkawaramachi.jpg" alt="Exchange 11">
+                        </div>
+                        <div class="gallery-item" data-title="狐のお面" data-description="京都で一番人気のKitsune Clubに友達と">
+                            <img src="/images/kitsune.jpg" alt="Exchange 12">
+                        </div>
+                        <div class="gallery-item" data-title="カラオケ" data-description="アメリカの友達とカラオケを楽しんだ思い出。">
+                            <img src="/images/karaokewithamericanfriends.jpg" alt="Exchange 13">
+                        </div>
+                    </div>
+            
+                    <!-- 右ボタン -->
+                    <button class="next-btn">&gt;</button>
+                </div>
+            </div>
+            
+            
+
+            <div id="imageModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img id="modalImage" src="" alt="Expanded Image">
+                    <div id="modalDescription">
+                        <h4 id="modalTitle"></h4>
+                        <p id="modalText"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>このポートフォリオで使用した言語と技術:</p>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+            </ul>
+            <a href="https://github.com/fmfrom422yd/portfolio-site" target="_blank">このポートフォリオのコードを見る</a>
+            <a href="/index.html">このページを一番上に戻る</a>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>フロントエンド</h3>
+            <ul>
+                <li><img src="icons/html.png" alt="HTML"> HTML</li>
+                <li><img src="icons/css.png" alt="CSS"> CSS</li>
+                <li><img src="icons/react.png" alt="React"> React</li>
+                <!-- 他の技術を追加 -->
+            </ul>
+
+            <h3>バックエンド</h3>
+            <ul>
+                <li><img src="icons/java.png" alt="Java"> Java</li>
+                <!-- 他のバックエンド技術を追加 -->
+            </ul>
+
+            <h3>ツール</h3>
+            <ul>
+                <li><img src="icons/vscode.png" alt="VS Code"> VS Code</li>
+                <!-- 他のツールを追加 -->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <form>
+                <label for="name">名前</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">メール</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">メッセージ</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Soma Fukushima</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
