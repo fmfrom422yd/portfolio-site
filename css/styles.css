@@ -9,7 +9,7 @@ body {
 
 h2 {
     font-size: 2rem;
-    color: #333;
+    color: #2c3e50;
     margin-bottom: 20px;
 }
 
@@ -105,9 +105,23 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+/* お問い合わせタイトル */
+h2 {
+    text-align: center;  /* 中央に配置 */
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 1em;
+}
+
+/* ラベル（名前、メール、メッセージ）のスタイル */
+label {
+    font-size: 1.2em;   /* フォントサイズを設定 */
+    color: #2c3e50;        /* 色を #333 に設定 */
+}
 
 button {
     background-color: #2ecc71;
+    
     color: white;
     border: none;
     padding: 10px;
@@ -145,7 +159,7 @@ button:hover {
 #home h2 {
     font-size: 2.0rem;  /* タイトルのフォントサイズ */
     margin-bottom: 10px; /* タイトルと本文の間の余白 */
-    color: #333;      /* タイトルの色 */
+    color: #2c3e50;      /* タイトルの色 */
 }
 
 #about {
@@ -161,7 +175,7 @@ button:hover {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
-    color: #333;
+    color: #2c3e50;
 }
 
 .intro {
@@ -179,13 +193,13 @@ button:hover {
 
 .name-section h3 {
     font-size: 1.5rem;
-    color: #333;
+    color: #2c3e50;
     margin-bottom: 5px;
 }
 
 .name-section p {
     font-size: 1.1rem;
-    color: #333;
+    color: #2c3e50;
 }
 
 .profile-img {
@@ -207,13 +221,13 @@ button:hover {
 
 .section h3 {
     font-size: 1.5rem;
-    color: #2ecc71;
+    color: #2c3e50;
     margin-bottom: 10px;
 }
 
 .section p, .section ul {
     font-size: 1.2rem;
-    color: #333;
+    color: #2c3e50;
     line-height: 1.6;
 }
 
@@ -238,7 +252,7 @@ ul li {
     font-size: 1.2rem; /* フォントサイズ */
     margin: 0;         /* マージンをリセット */
     padding: 0;        /* パディングをリセット */
-    color: #333;       /* 色を指定 */
+    color: #2c3e50;       /* 色を指定 */
     margin-top: 20px;
 }
 
